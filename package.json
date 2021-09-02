@@ -1,0 +1,34 @@
+{
+  "name": "kodi-ws",
+  "version": "2.4.0",
+  "main": "lib/kodi-ws.js",
+  "author": "Florian Albertz",
+  "contributors": [
+    "Links 2004",
+    "Bram van Oploo"
+  ],
+  "license": "BSD-3-Clause",
+  "description": "A wrapper for the kodi jsonrpc interface",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulAvery/kodi-ws.git"
+  },
+  "keywords": [
+    "kodi",
+    "jsonrpc",
+    "json-rpc"
+  ],
+  "scripts": {
+    "test": "make lint"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "has-value": "^2.0.2",
+    "jrpc-schema": "^2.1.0",
+    "set-value": "^3.0.2",
+    "ws": "^7.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
